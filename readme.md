@@ -10,6 +10,8 @@ npm i listr3
 
 ## Example
 
+![listr-3-anim](./logo/cast/demo.gif)
+
 Listr3 is designed to be super-simple to use. No need to write a schema before-hand, just say what you're doing and we'll handle it.
 
 ```ts
