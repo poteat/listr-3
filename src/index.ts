@@ -1,4 +1,4 @@
-import { Task } from "./core/Task";
+import { Task } from "./core/task/Task";
 
 export default Task;
 

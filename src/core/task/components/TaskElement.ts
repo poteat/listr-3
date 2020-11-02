@@ -2,10 +2,10 @@ import cliProgress from "cli-progress";
 import logUpdate from "log-update";
 import ora from "ora";
 
-import { createProgressBar } from "../../components/progress/createProgressBar";
-import { createStatusSpinner } from "../../components/spinner/createStatusSpinner";
-import { LineStreamComposer } from "../../stream/composer/LineStreamComposer";
-import { TaskOptions } from "../options/TaskOptions";
+import { createProgressBar } from "../../../components/progress/createProgressBar";
+import { createStatusSpinner } from "../../../components/spinner/createStatusSpinner";
+import { LineStreamComposer } from "../../../stream/composer/LineStreamComposer";
+import { TaskOptions } from "../../options/TaskOptions";
 
 /**
  * A TaskElement is a task whose progress is rendered to the terminal, as both
